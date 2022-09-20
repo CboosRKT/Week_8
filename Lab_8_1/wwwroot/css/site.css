@@ -1,5 +1,7 @@
+
+
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -14,5 +16,89 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    font-family: "Roboto Condensed";
+}
+
+#header {
+    padding: 0px,0px,0px,0px;
+    margin: 0px,0px,0px,0px;
+   
+    top: 0%;
+    width: 100%;
+    background-color: black;
+}
+
+p.maintitle {
+    margin: 0%;
+    text-align: center;
+    padding: 0%;
+    padding-top: .5em;
+    font-family: "Bungee Spice", sans-serif;
+    font-size: 3em;
+}
+#subtitle {
+    padding-top: 0em;
+    text-align: center;
+    padding-bottom: 0em;
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+#navigation {
+    text-align: center;
+    background-color:dimgrey;
+
+    font-size: 1em;
+    width: 100%;
+    margin: 0px;
+    padding: 0em;
+    
+}
+
+
+a.navoption {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+    color: gold;
+    font-size: 1.25em;   
+    font-family: "Bungee", sans-serif;
+    margin: 0px;
+    padding-top: 0px;
+    padding-top: 0px;
+}
+a.navoption:hover {
+  
+    color: yellow;
+ 
+}
+h1 {
+    display: inline;
+    padding: 0em;
+    margin: 0em;
+    font-family: "Bungee", sans-serif;
+}
+
+#IntroParagraph, img{
+    width: 25em;
+    float:left;
+    padding-right: 1em;
+}
+
+.example {
+    float: left;
+    width: 33.33%;
+    padding: 0;
+    margin: 0;
+}
+
+.example img 
+
+{
+    
+    height: 12em;
+    float: none;
+
 }
